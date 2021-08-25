@@ -1,0 +1,109 @@
+
+body{
+    background-color:silver;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 1.5;
+    background: white;
+}
+header{
+    background-color: silver;
+
+}
+main{
+    background: url(baby\ Zachers.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+:visited {
+    color: intitial;
+    font-style: initial;
+    text-decoration-color: cyan;
+}
+
+    /* font-styles */
+
+h2{
+    font-size: 3rem;
+}
+p{
+    color: rgba(0,0,0, .90);
+    font-size:1.25rem;
+}
+ol{
+    color:rgba(0,0,0, .9);
+    font-size:1.25rem;
+
+
+}
+
+
+/* nav items */
+
+#navbox{
+    display:block;
+    flex-direction: column;
+    position: fixed;
+    top:0px;
+    left:0px;
+    background-color: white;
+    float: left;
+    height: 75rem;
+    width: 5rem;
+    border-color: black;
+    border-style: solid;
+    border-left: 1px;
+    text-indent: 1.5rem;
+    font-size: 1.25rem;
+    list-style-type: disc;
+    min-width: 250px;
+}
+.navitem{
+    background-color: inherit;
+    display: flex;
+    flex-direction: inherit;
+    border-color: rgba(0,0,0, .5);
+    border-style: solid;
+    border-right:0px;
+    border-left:0px;
+    border-top: 1px;
+    height:4.73rem;
+    width: auto;
+    justify-content:center;
+    list-style-type: disc;
+}
+#welcomebar{
+    height:4.5rem;
+    width:auto;
+    margin-top:-.5rem;
+    padding-top:.5rem;
+    font-size: 3rem;
+
+}
+#prosandcons{
+    height:20%;
+    justify-content: flex-start;
+
+}
+ /* section styling  */
+
+ #maincontainer{
+     display:flex;
+     flex-direction: column;
+     float:right;
+     height: auto;
+     width:84.5%;
+     background-color: rgba(255, 255, 255, .1);
+ }
+ .contentsections{
+     display:flex;
+     flex-direction: column;
+     background-color:rgba(255,255,255,.1);
+     height: auto;
+     width: auto;
+     margin-top: 5rem;
+
+ }
+ #welcomecontentsection{
+     margin-top: -2rem;
+ }
